@@ -1,0 +1,106 @@
+
+body
+{
+  margin: 0;
+  padding: 0;
+  font-size: large;
+}
+
+.container
+{
+  display: grid;
+  min-height: 100vh;
+  min-width: 100vw;
+grid-template-columns: 10vw 5vw 75vw 10vw;
+  grid-template-rows:  8vw 5vw auto 3vw;
+}
+
+header
+{
+  background-color: rgb(150, 180, 130);
+  color: white;
+  grid-column: 1/5;
+  grid-row: 1/2;
+  text-align: center;
+  
+}
+
+nav
+{
+  background-color: black;
+  grid-column: 1/5;
+  grid-row: 2/3;
+  padding: 10px;
+  text-align: center;
+}
+
+main
+{
+  background-color: white;
+  grid-column: 1/5;
+  grid-row: 3/4;  
+
+  margin-left: 10px;
+  text-align: center;
+  margin-top: 10px;
+margin-bottom: 20px;
+}
+
+
+footer
+{
+  background-color: rgb(150, 180, 130);
+  color: white;
+  text-align: center;
+  grid-column: 1/5;
+  grid-row: 4/5;
+}
+
+
+
+.links
+{
+  margin-left: 15px;
+}
+
+
+.NAV a
+{
+  margin-right: 20px; 
+
+}
+
+.active
+{ 
+  color: rgb(255, 255, 255);
+  font-size: xx-large;
+}
+a
+{
+  color: rgb(0, 196, 82);
+}
+
+#Fotonieuwjobs
+{
+  width: 250px;
+}
+
+#mensvsAi
+{
+  width: 500px;
+}
+
+#bronnen
+{
+  color: white;
+}
+#Informaticaschool{
+  width: 400px;
+}
+
+p
+{
+  display: inline;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
